@@ -1,0 +1,110 @@
+/*Start of tags style*/
+body{
+  color: #555555;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*End of style tags*/
+
+
+/*Header*/
+.header{
+  height: 12%;
+  width: 100%;
+}
+
+.header h1{
+  float: left;
+  font: normal 170% 'century gothic', "Times New Roman", sans-serif;
+  width: 40%;
+  margin: 0;
+
+}
+#button-mobile{
+  display: none;
+}
+.header button{
+  display: block;
+  font-size: 0.5em;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 1%;
+  width: 20%;
+  height: 35px;
+}
+/*End Header*/
+
+
+/*Main_City
+
+
+/*first_block
+
+/*end first_block*/
+
+
+/*End main city*/
+
+/*Favorites*/
+
+/*End Favorites*/
+
+
+
+
+
+/* --------------------------------------CSS Mobile--------------------------------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+
+  /*Start of tags style*/
+  body{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  /*End of style tags*/
+
+
+  /*Header*/
+  .header{
+    min-width: 100%;
+    height: 40px;
+  }
+
+  .header h1{
+    float: left;
+    font: normal 150% 'century gothic', "Times New Roman", sans-serif;
+    width: 50%;
+    margin: 0;
+    padding-top: 2%;
+  }
+
+  #button-mobile{
+    display: block;
+  }
+  #button-desktop{
+    display: none;
+  }
+  .header button{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+  }
+  .header img{
+    width: 100%;
+    margin: 0;
+  }
+  /*End Header*/
+
+
+  /*Main_City*/
+  /*End main city*/
+
+
+  /*Favorites*/
+  /*End Favorites*/
+
+
+}
