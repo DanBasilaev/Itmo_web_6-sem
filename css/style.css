@@ -194,6 +194,22 @@ ul.menu li.city{
     margin-left: 5%;
     margin-right: 5%;
   }
+  h2{
+    float: none;
+  }
+  form{
+    display: flex;
+    justify-content: space-between;
+  }
+  input[type="text"]{
+    width: 80%;
+    margin-right: 2%;
+  }
+  input[type="image"]{
+    width: 30px;
+    height: 30px;
+
+  }
   /*End of style tags*/
 
 
@@ -254,11 +270,14 @@ ul.menu li.city{
 
 
   /*Favorites*/
+  .favorites{
+    display: block;
+  }
   ul.menu{
     display: block;
     margin-top: 5%;
   }
-  ul.menu li{
+  ul.menu li.city{
     width: 100%;
   }
   .flex button{
