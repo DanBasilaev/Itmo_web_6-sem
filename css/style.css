@@ -1,14 +1,51 @@
-/*Start of tags style*/
+/*---------Start of tags style*/
 body{
   color: #555555;
   max-width: 600px;
   margin-right: auto;
   margin-left: auto;
 }
-/*End of style tags*/
+
+h2{
+  float: left;
+  width: 40%;
+  margin: 0;
+  font: normal 150% 'century gothic', "Times New Roman", sans-serif;
+}
+h3{
+  float: left;
+  margin: 0;
+  font: bold 130% 'century gothic', "Times New Roman", sans-serif;
+}
+form{
+  display: flex;
+  justify-content: flex-end;
+}
+input[type="text"]{
+  background-color: #e4e4e4;
+  border-radius: 2px;
+  border: 0px;
+  padding: 10px;
+  width: 160px;
+  color: black;
+  margin-right: 20px;
+}
+input[type="image"]{
+  width: 35px;
+  height: 35px;
+  border-radius: 45%;
+
+}
+img{
+  width: 35px;
+  height: 35px;
+  border-radius: 35%;
+}
+
+/*---------End of style tags*/
 
 
-/*Header*/
+/*---------Header*/
 .header{
   height: 12%;
   width: 100%;
@@ -32,14 +69,16 @@ body{
   padding: 1%;
   width: 23%;
   height: 30px;
+  cursor: pointer;
 }
-/*End Header*/
+/*---------End Header*/
 
 .main{
   /*background-color: darkseagreen;*/
   margin-top: 3%;
+
 }
-/*Main_City*/
+/*---------Main_City*/
 
 .main_city{
   display: -webkit-flex;
@@ -60,6 +99,7 @@ body{
   float: left;
   margin: 2% 30% 0 5%;
   width: 23%;
+  height: auto;
   border-radius: 35%;
 }
 .first span{
@@ -82,34 +122,75 @@ ul.weather{
 ul.weather li{
   list-style: none;
   margin: 3px 0 3px 0;
-  padding: 1px 2px 1px 5px;
+  padding: 1px 0px 1px 0px;
   background-color: gray;
   color: white;
 }
 ul.weather span{
   float: right;
 }
-/*end first_block*/
+/*---------End main city*/
 
 
-/*End main city*/
 
-/*Favorites*/
+/*---------Favorites*/
+.favorites{
+  background-color: wheat;
+  margin-top: 3%;
+}
 
-/*End Favorites*/
+ul.menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: black;
+  margin: 3% 0 0 0;
+  padding: 0;
+}
+ul.menu li{
+  list-style: none;
+  margin-top: 2%;
+  width: 265px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex span{
+  font-size: 1.3em;
+}
+
+.flex button{
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 0px;
+  border-radius: 45%;
+  margin-left: 15%;
+}
+.delete img{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0;
+  border-radius: 45%;
+}
+
+/*---------End Favorites*/
 
 
 
 
 
 /* --------------------------------------CSS Mobile--------------------------------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
 
   /*Start of tags style*/
   body{
     margin-left: 5%;
     margin-right: 5%;
-    min-width: 320px;
   }
   /*End of style tags*/
 
@@ -138,11 +219,13 @@ ul.weather span{
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
+    padding: 2px 0 0 0;
     width: 40px;
     height: 40px;
   }
   .header img{
-    width: 100%;
+    width: 30px;
+    text-align: center;
     margin: 0;
   }
   /*End Header*/
@@ -158,6 +241,7 @@ ul.weather span{
   }
   .first img{
     width: 50px;
+    height: 50px;
   }
   .second{
     width: 100%;
@@ -168,6 +252,16 @@ ul.weather span{
 
 
   /*Favorites*/
+  ul.menu{
+    display: block;
+    margin-top: 5%;
+  }
+  ul.menu li{
+    width: 100%;
+  }
+  .flex button{
+    margin-left: 25%;
+  }
   /*End Favorites*/
 
 }
