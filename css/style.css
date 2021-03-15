@@ -115,9 +115,11 @@ img{
 }
 
 ul.weather{
+  display: block;
   border: black;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 ul.weather li{
   list-style: none;
@@ -135,7 +137,6 @@ ul.weather span{
 
 /*---------Favorites*/
 .favorites{
-  background-color: wheat;
   margin-top: 3%;
 }
 
@@ -148,10 +149,10 @@ ul.menu{
   margin: 3% 0 0 0;
   padding: 0;
 }
-ul.menu li{
+ul.menu li.city{
   list-style: none;
   margin-top: 2%;
-  width: 265px;
+  width:45%;
 }
 .flex{
   display: flex;
@@ -177,6 +178,7 @@ ul.menu li{
   margin: 0;
   border-radius: 45%;
 }
+
 
 /*---------End Favorites*/
 
