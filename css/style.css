@@ -30,17 +30,68 @@ body{
   margin-right: auto;
   border-radius: 5px;
   padding: 1%;
-  width: 20%;
-  height: 35px;
+  width: 23%;
+  height: 30px;
 }
 /*End Header*/
 
+.main{
+  background-color: darkseagreen;
+  margin-top: 3%;
+}
+/*Main_City*/
 
-/*Main_City
+.main_city{
+  background-color: wheat;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 2%;
 
+}
+/*first_block*/
+.first{
+  border: solid 1px black;
+  width: 48%;
+  margin-right: 2%;
+}
+.first h1{
+  font: bold 170% 'century gothic', "Times New Roman", sans-serif;
+  margin: 1%;
+}
+.first img{
+  float: left;
+  margin: 2% 30% 0 5%;
+  width: 23%;
+  border-radius: 35%;
+}
+.first span{
+  display: block;
+  font-size: 4em;
+}
 
-/*first_block
+/*second_block*/
+.second{
+  border: solid 1px black;
+  width: 48%;
+  margin-right: 0;
+  margin-left: 2%;
+}
 
+ul.weather{
+  border: black;
+  margin: 0;
+  padding: 0;
+}
+ul.weather li{
+  list-style: none;
+  margin: 3px 0 3px 0;
+  padding: 1px 2px 1px 5px;
+  background-color: gray;
+  color: white;
+}
+ul.weather span{
+  float: right;
+}
 /*end first_block*/
 
 
@@ -100,6 +151,18 @@ body{
 
 
   /*Main_City*/
+  .main_city{
+    display: block;
+  }
+  .first{
+    width: 100%;
+    margin: 0;
+  }
+  .second{
+    width: 100%;
+    margin: 0;
+  }
+
   /*End main city*/
 
 
