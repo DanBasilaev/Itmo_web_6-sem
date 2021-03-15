@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> mobile
 /*Start of tags style*/
 body{
   color: #555555;
@@ -36,13 +41,20 @@ body{
 /*End Header*/
 
 .main{
+<<<<<<< HEAD
   background-color: darkseagreen;
+=======
+  /*background-color: darkseagreen;*/
+>>>>>>> mobile
   margin-top: 3%;
 }
 /*Main_City*/
 
 .main_city{
+<<<<<<< HEAD
   background-color: wheat;
+=======
+>>>>>>> mobile
   display: -webkit-flex;
   display: flex;
   margin-bottom: 2%;
@@ -50,7 +62,10 @@ body{
 }
 /*first_block*/
 .first{
+<<<<<<< HEAD
   border: solid 1px black;
+=======
+>>>>>>> mobile
   width: 48%;
   margin-right: 2%;
 }
@@ -71,7 +86,10 @@ body{
 
 /*second_block*/
 .second{
+<<<<<<< HEAD
   border: solid 1px black;
+=======
+>>>>>>> mobile
   width: 48%;
   margin-right: 0;
   margin-left: 2%;
@@ -171,3 +189,7 @@ ul.weather span{
 
 
 }
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> mobile
